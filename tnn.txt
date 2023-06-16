@@ -2,3 +2,5 @@ test
 online write
 
 local testtest 6/16
+
+online test git synchronous commit
