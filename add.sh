@@ -1,23 +1,24 @@
 
 ### git rebase : local branch two and remote branch two edit together
 ## 1. 
-# git add .
-# sleep 2
-# git commit -m 'update .gitignore'
-# sleep 2
+git add .
+sleep 2
+git commit -m '照舊記錄就可 會覆蓋第一次的 不會有重複兩個記錄 1'
+sleep 2
 ## don't use git pull > 也可 ，但會有兩次記錄（一般和衝突）> 所以開分支比較好
 ## 若 git pull  就要 git config pull.rebase false 否則就是以下的rebase
-# git fetch origin
-# git rebase origin/two
+git fetch origin
+sleep 2
+git rebase origin/two
 ## then use sh add_rebase.sh 
 
 ### git push
 ## 1.
-git add .
-sleep 2
-git commit -m 'rebase + merge in two'
-sleep 2
-git push
+# git add .
+# sleep 2
+# git commit -m 'rebase + merge in two'
+# sleep 2
+# git push
 
 ### git merge
 ### git push --set-upstream origin three 的目的是将本地分支 three 推送到远程仓库并设置它与远程分支的关联（upstream）
