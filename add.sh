@@ -12,11 +12,11 @@
 
 ### git push
 ## 1.
-git add .
-sleep 2
-git commit -m 'update add.sh'
-sleep 2
-git push
+# git add .
+# sleep 2
+# git commit -m 'update add.sh'
+# sleep 2
+# git push
 
 ### create branch and checkout,after modify,merge to main or master ,repair both modifyed,delete branch
 ## 1.
@@ -35,5 +35,11 @@ git push
 # git push origin main
 
 
+###
+## 1.
+# 删除已合并的分支（小写的 -d）
+# git branch -d feature-branch
+# 删除未合并的分支（强制删除，大写的 -D）
+# git branch -D unfinished-feature
 
 
