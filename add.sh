@@ -35,5 +35,11 @@ sleep 2
 git push origin main
 
 
+###
+## 1.
+# 删除已合并的分支（小写的 -d）
+# git branch -d feature-branch
+# 删除未合并的分支（强制删除，大写的 -D）
+# git branch -D unfinished-feature
 
 
