@@ -45,3 +45,18 @@
 # git branch -D unfinished-feature
 
 
+<<<<<<< HEAD
+=======
+# local branch two and remote branch two edit together
+
+git pull
+
+git fetch origin
+git rebase origin/two
+
+git add .
+git commit -m 'update 123.md on local 2'
+
+git rebase --continue
+git push
+>>>>>>> 393c167 (update 123.md on local 2)
