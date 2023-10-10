@@ -6,6 +6,7 @@
 # git commit -m 'update .gitignore'
 # sleep 2
 ## don't use git pull
+## git pull > git config pull.rebase false
 # git fetch origin
 # git rebase origin/two
 ## then use sh add_rebase.sh 
