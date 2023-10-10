@@ -15,7 +15,7 @@
 ## 1.
 git add .
 sleep 2
-git commit -m 'rebase + merge in main'
+git commit -m 'rebase + merge in two'
 sleep 2
 git push
 
