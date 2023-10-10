@@ -1,5 +1,5 @@
 
-### local branch two and remote branch two edit together
+### git rebase : local branch two and remote branch two edit together
 ## 1. 
 # git add .
 # sleep 2
@@ -15,7 +15,7 @@
 ## 1.
 git add .
 sleep 2
-git commit -m 'add note : git rebase / git merge'
+git commit -m 'rebase + merge in main'
 sleep 2
 git push
 
