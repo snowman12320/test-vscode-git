@@ -12,11 +12,11 @@
 
 ### git push
 ## 1.
-# git add .
-# sleep 2
-# git commit -m 'update add.sh'
-# sleep 2
-# git push
+git add .
+sleep 2
+git commit -m 'rebase + merge in two'
+sleep 2
+git push
 
 ### create branch and checkout,after modify,merge to main or master ,repair both modifyed,delete branch
 ## 1.
