@@ -5,7 +5,7 @@
 # sleep 2
 # git commit -m 'update .gitignore'
 # sleep 2
-## don't use git pull
+## don't use git pull > 也可 ，但會有兩次記錄（一般和衝突）> 所以開分支比較好
 ## git pull > git config pull.rebase false
 # git fetch origin
 # git rebase origin/two
